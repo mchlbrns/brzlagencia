@@ -1,0 +1,315 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BRZL Agência</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{%static 'website/assets/favicon/favicon.ico'%}" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{%static 'website/css/styles.css'%}" rel="stylesheet" />
+        <link href="{%static 'website/css/catto.css'%}" rel="stylesheet" />
+        {% comment %} aos {% endcomment %}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body id="page-top">
+        
+        <a href="https://www.google.com" class="float">
+            <img class="img-fluid bounce" src="{%static 'website/assets/img/SORTEIO.png'%}" alt="..." />
+            </a>
+        
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand border-5 border-bottom border-primary" href="#page-top"><img class="img-fluid" style="width: 35px; height: 35px;" src="{%static 'website/assets/img/logo.png'%}" alt="..." />BRZL Agência</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Blogues</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100" data-aos="fade-up"
+            data-aos-duration="1500">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">O caminho para o seu sonho.</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Bem-vindo ao nosso modelo de parceiro de agência! Oferecemos diversos modos para ajudá-lo a iniciar o caminho para ganhar milhões. Como uma agência que colabora com várias empresas, nosso modelo já foi comprovado e ganhar dinheiro não é mais um sonho. Junte-se a nós e construa um futuro brilhante!</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Descubra mais</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5" data-aos="fade-up"
+            data-aos-duration="1500">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <div class="mb-2">
+                            <video width="100%" height="auto" autoplay loop muted>
+                                <source src="{% static 'website/assets/vid/FINALE_HD.mp4' %}" type="video/mp4">
+                                Your browser does not support the video tag
+                               </video>
+                        </div>
+                        
+                        <h2 class="text-white mt-0">Quem somos nós?</h2>
+                        <hr class="divider divider-light" /> 
+                        <p class="text-white-75 mb-4">Nossa missão: é proporcionar empregos para todas as pessoas no Brasil para ajudá-las alcançar seus sonhos e a se tornarem financeiramente estábulo.</p>
+                        <p class="text-white-75 mb-4">Nossa visão: Nós, da BRZL Agência, pretendemos ser a agência número 1 no Brasil.</p>
+                        <a class="btn btn-light btn-xl" href="#services">Comece!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5" data-aos="fade-up"
+            data-aos-duration="1500">
+                <h2 class="text-center mt-0">Nosso Modelo de Parceria de Agência</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><img src="{% static 'website/assets/vid/streamer.gif' %}" alt="streamer" style="max-width: 100%; height: auto;"></i></div>
+                            <h3 class="h4 mb-2">Agente Intermediário</h3>
+                            <p class="text-muted mb-0">Torne-se uma ponte entre nós e os agentes! Negocie parcerias, promova a marca e mostre suas habilidades de comunicação e negociação!</p>
+                            <div class="svcs-btn mt-2 border rounded d-grid gap-2">
+                                <a href="" class="grow btn btn-primary btn-sm">Saber Mais</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><img src="{% static 'website/assets/vid/streamer.gif' %}" alt="streamer" style="max-width: 100%; height: auto;"></i></div>
+                            <h3 class="h4 mb-2">Agente</h3>
+                            <p class="text-muted mb-0">Torne-se o pioneiro na promoção de produtos! Aproveite descontos exclusivos e brindes gratuitos para atrair clientes rapidamente para sua loja e criar oportunidades ilimitadas!
+                            </p>
+                            <div class="svcs-btn mt-2 border rounded d-grid gap-2">
+                                <a href="" class="grow btn btn-primary btn-sm">Saber Mais</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                    <img src="{% static 'website/assets/vid/streamer.gif' %}" alt="streamer" style="max-width: 100%; height: auto;">
+                            </div>
+                            <h3 class="h4 mb-2">Apresentador(a)</h3>
+                            <p class="text-muted mb-0">Torne-se o(a) embaixador(a) da marca através de lives! Use a interação e a demonstração para atrair o público e transformá-los em clientes certos, alcançando seu sucesso!</p>
+                            <div class="svcs-btn mt-2 border rounded d-grid gap-2">
+                                <a href="" class="grow btn btn-primary btn-sm">Saber Mais</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <img src="{% static 'website/assets/vid/influ.gif' %}" alt="streamer" style="width: 20rem; height: 15rem;">
+                            </div>
+                            <h3 class="h4 mb-2">Agente Influenciador(a)</h3>
+                            <p class="text-muted mb-0">Utilize sua influência nas redes sociais para promover a marca! Com conteúdo atraente e interação com os fãs, aumente a visibilidade dos produtos e transforme sua influência em lucro!</p>
+                            <div class="svcs-btn mt-2 border rounded d-grid gap-2">
+                            <a href="" class="grow btn btn-primary btn-sm">Saber Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <h2 class="text-center mt-0">Nossa equipe de sucesso</h2>
+            <hr class="divider" />
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a class="portfolio-box" href="{%static 'website/assets/img/portfolio/fullsize/tarub.jpg'%}" title="Aline">
+                            <img class="img-fluid" src="{%static 'website/assets/img/portfolio/thumbnails/tarub.jpg'%}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Agent</div>
+                                <div class="project-name">Aline</div>
+                                <div class="project-description">Our dedicated agent who already living her life to the fullest.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a class="portfolio-box" href="{%static 'website/assets/img/portfolio/fullsize/tarub2.jpg'%}" title="Project Name">
+                            <img class="img-fluid" src="{%static 'website/assets/img/portfolio/thumbnails/tarub2.jpg'%}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Agent</div>
+                                <div class="project-name">Lucas</div>
+                                <div class="project-description">who used to promote on the streets, is now one of our top agents, earning thousands of dollars a day. He said, “If you have the courage to try, you can get unimaginable returns.”</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a class="portfolio-box" href="{%static 'website/assets/img/portfolio/fullsize/3.jpg'%}" title="Project Name">
+                            <img class="img-fluid" src="{%static 'website/assets/img/portfolio/thumbnails/3.jpg'%}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Name</div>
+                                <div class="project-name">Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a class="portfolio-box" href="{%static 'website/assets/img/portfolio/fullsize/4.jpg'%}" title="Project Name">
+                            <img class="img-fluid" src="{%static 'website/assets/img/portfolio/thumbnails/4.jpg'%}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Name</div>
+                                <div class="project-name">Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a class="portfolio-box" href="{%static 'website/assets/img/portfolio/fullsize/5.jpg'%}" title="Project Name">
+                            <img class="img-fluid" src="{%static 'website/assets/img/portfolio/thumbnails/5.jpg'%}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Name</div>
+                                <div class="project-name">Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <a class="portfolio-box" href="{%static 'website/assets/img/portfolio/fullsize/6.jpg'%}" title="Project Name">
+                            <img class="img-fluid" src="{%static 'website/assets/img/portfolio/thumbnails/6.jpg'%}" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Name</div>
+                                <div class="project-name">Name</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Interessado em fazer parte da equipe?</h2>
+                <a class="btn btn-light btn-xl" href="#contact">Contate-nos</a>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Vamos entrar em contato!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Para mais perguntas? Envie-nos uma mensagem e retornaremos o mais breve possível!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Nome completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">É necessário um nome.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Endereço de email</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">É necessário um e-mail.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">E-mail não é válido.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(55) 56456-7890" data-sb-validations="required" />
+                                <label for="phone">Número de telefone</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">É necessário um número de telefone.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Digite sua mensagem aqui..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Mensagem</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Uma mensagem é necessária.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Envio do formulário realizado com sucesso!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+55 (11) 97181-9018</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">direito autoral &copy; 2024 - BRZL Agência</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{%static 'website/js/scripts.js'%}"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        {% comment %}aos{% endcomment %}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    </body>
+</html>
